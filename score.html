@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<link rel="stylesheet" type="text/css" href="score1.css">
+</head>
+<body>
+	<div id='title'>SCORE KEEPER</div>
+		<div id ='score'>
+		<h1><span id='p1Display'>0</span> - <span id='p2Display'>0</span></h1>
+
+		<p>Playing to: 5</p>
+
+		<label><input type='number'><br><span id='line'>Enter the winning Score</label>
+		<br><br>
+		<button id='p1'>Player 1</button>
+		<button id='p2'>Player 2</button>
+		<button id='reset'>Reset</button>
+	</div>
+	<br><br>
+	<div id='rules'>
+		<h1 id='rules'><u>RULES</u>:-<h1>
+		<ul id='list'>
+			<em>
+			<li>The default winning score in the beginning is 5.</li>
+			<li>Winning Score must be greater than 1</li>
+			<li>Players can update the winning score even during the mid game (Only if nobody has won the game yet and new winning score must be greater than their current score).</li>
+			<li>Once a player wins,you must either reset or change the winning score to play the game again.</li>
+			<li>The winning score will get green ,once a player wins the game</li>
+			</em>
+		</ul>
+	</div>
+<script type="text/javascript" src='score.js'></script>
+</body>
+</html>
