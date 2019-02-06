@@ -1,3 +1,4 @@
-# Score-Keeper
-Keeps a track of the scores of 2 players..
-############
+########################################################################
+Score-Keeper:-
+A very simple webpage using javascript to keep a track over the scores of 2 players..
+########################################################################
